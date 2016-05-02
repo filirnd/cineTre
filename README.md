@@ -17,7 +17,7 @@ Need Java 7+ installed, [download here](http://java.com/en/download/).
 
 To install the software just give execute permissions to the file "cinetre" in "cineTre/bin/" folder.
 
-Open terminal, go in "cineTre/bin/" folder of project and type:  `` chmod +x cinetre ``
+Open terminal, go in "cineTre/bin/" folder and type:  `` chmod +x cinetre ``
 
 
 ## Run
