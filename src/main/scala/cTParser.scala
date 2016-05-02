@@ -6,18 +6,22 @@ import org.jsoup.Jsoup
   */
 
 
-//Parse
 class cTParser( city : String) {
+
 
   val site = s"http://www.grandecinema3.it/cinemalistresult.aspx?provincia=$city"
 
   val doc = Jsoup.connect(site).get
+
+
   val cineList = doc.select(".cinemalist-scheda-cinema").listIterator
+
+
 
   while(cineList.hasNext){
     val c = cineList.next()
 
-    //println(c)
+
     val nome = c.getElementsByClass("descrizione").first()
     val indirizzo = c.getElementsByTag("span").first()
 
@@ -29,10 +33,6 @@ class cTParser( city : String) {
     }else{
 
       val films = program.getElementsByClass("box-film").listIterator
-
-      //println(Console.CYAN +films)
-
-
 
       while(films.hasNext){
         val film = films.next()
@@ -48,8 +48,6 @@ class cTParser( city : String) {
         println(Console.CYAN +"  =+= "+ titolo  +" - " + root+trama )
         println(Console.WHITE + "      "+  genere + " - "+ orari)
 
-
-
       }
 
 
@@ -58,7 +56,6 @@ class cTParser( city : String) {
 
     println("\n")
 
-    //
 
   }
 
