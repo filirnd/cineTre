@@ -1,7 +1,10 @@
 # <>< CineTre ><>
 
 GrandeCinema3.it showtimes in linux terminal.
+
 Written in Scala with <3 by Filippo Randazzo (https://github.com/filirnd).
+
+
 ![alt text](https://github.com/filirnd/cineTre/blob/master/images/Screenshot%20-%2002052016%20-%2016:57:49.png "Screenshot of cineTre")
 
 
