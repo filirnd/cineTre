@@ -6,7 +6,7 @@
 
 ## Installation
 
-This software working on unix like distro.
+This software working on Unix like distro.
 Need Java 7+ installed, [download here](http://java.com/en/download/).
 
 
