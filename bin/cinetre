@@ -1,0 +1,12 @@
+#!/bin/sh
+
+JAR_PATH="./cineTre_v0.1.jar"
+
+
+if [ "$#" != "1" ];
+then
+ echo 'Usage ./cinetre <prov> \nExample ./cinetre CT for showtimes in Catania'
+else
+ java -jar "${JAR_PATH}" $1
+fi
+
