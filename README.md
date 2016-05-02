@@ -1,6 +1,7 @@
 # <>< CineTre ><>
 
 ####GrandeCinema3.it showtimes in linux terminal.
+![alt text](https://github.com/filirnd/cineTre/blob/master/images/Screenshot%20-%2002052016%20-%2016:57:49.png "Screenshot of cineTre")
 
 
 
