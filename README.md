@@ -20,7 +20,8 @@ To install the software just give execute permissions to the file "cinetre" in "
 Open terminal, go in "cineTre/bin/" folder and type:  `` chmod +x cinetre ``
 
 ### Deb Installation
-There is a deb package that automatize installation of cinetre_version.jar and cinetre(bash script) respectively in "/usr/lib/cinetre" and "/usr/bin" folders
+There is a deb package that automatize installation of cinetre_version.jar and cinetre(bash script) respectively in "/usr/lib/cinetre" and "/usr/bin" folders.
+Download and install [this deb file](https://github.com/filirnd/cineTre/blob/master/deb/cinetre-0.1.deb?raw=true)
 
 
 ## Run
