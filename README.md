@@ -24,7 +24,7 @@ Open terminal, go in "cineTre/bin/" folder of project and type:  `` chmod +x cin
 To start the program open terminal, go in "cineTre/bin/" folder and type:
 ``./cinetre <provincia> `` 
 
-Example : ``./cinetre CT `` for list of shotimes in Catania.
+Example : ``./cinetre CT `` for list of showtimes in Catania.
 
 
 ## License
